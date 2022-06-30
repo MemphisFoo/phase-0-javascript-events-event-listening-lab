@@ -1,4 +1,4 @@
-const input = document.getElementById('button');
+/*const input = document.getElementById('button');
 
 function addingEventListener() {
     function clickAlert() {
@@ -6,3 +6,16 @@ function addingEventListener() {
     }
       input.addEventListener('click', clickAlert);
 };
+*/
+
+
+const input = document.getElementById('button');
+
+function addingEventListener() {
+    function clickAlert() {
+    alert('I was clicked!');
+}
+    input.addEventListener('click',clickAlert);
+};
+
+addingEventListener();
